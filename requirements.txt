@@ -1,0 +1,20 @@
+--extra-index-url https://download.pytorch.org/whl/cu124
+torch==2.6.0+cu124
+torchvision==0.21.0+cu124
+# For Linux+CUDA 12.4 only. Modify as needed for other platforms or CUDA versions.
+
+accelerate==1.1.0
+einops==0.8.1
+huggingface-hub==0.36.0
+numpy
+pillow
+pydantic==2.11.3
+safetensors==0.5.3
+tqdm
+transformers==4.56.0
+imageio==2.37.0
+modelscope==1.25.0
+sentencepiece==0.2.0
+ftfy==6.3.1
+scipy==1.15.2
+av==14.4.0
